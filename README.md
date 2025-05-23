@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/SurajBiswal/Leetcode/tree/master/0022-generate-parentheses) |
 | [0046-permutations](https://github.com/SurajBiswal/Leetcode/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/SurajBiswal/Leetcode/tree/master/0078-subsets) |
+| [0131-palindrome-partitioning](https://github.com/SurajBiswal/Leetcode/tree/master/0131-palindrome-partitioning) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -22,8 +23,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/SurajBiswal/Leetcode/tree/master/0022-generate-parentheses) |
+| [0131-palindrome-partitioning](https://github.com/SurajBiswal/Leetcode/tree/master/0131-palindrome-partitioning) |
 ## Dynamic Programming
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/SurajBiswal/Leetcode/tree/master/0022-generate-parentheses) |
+| [0131-palindrome-partitioning](https://github.com/SurajBiswal/Leetcode/tree/master/0131-palindrome-partitioning) |
 <!---LeetCode Topics End-->
