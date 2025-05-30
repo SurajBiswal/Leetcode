@@ -1,0 +1,29 @@
+{
+  "organizeBy": "topic",
+  "topics": [
+    "Array",
+    "String",
+    "Hash Table",
+    "Two Pointers",
+    "Sliding Window",
+    "Binary Search",
+    "Linked List",
+    "Stack",
+    "Queue",
+    "Heap (Priority Queue)",
+    "Tree",
+    "Binary Tree",
+    "Graph",
+    "Backtracking",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Recursion",
+    "Dynamic Programming",
+    "Greedy",
+    "Sorting",
+    "Math",
+    "Bit Manipulation",
+    "Trie",
+    "Union Find"
+  ]
+}
