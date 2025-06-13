@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/SurajBiswal/Leetcode/tree/master/0078-subsets) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/SurajBiswal/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0300-longest-increasing-subsequence](https://github.com/SurajBiswal/Leetcode/tree/master/0300-longest-increasing-subsequence) |
+| [0907-koko-eating-bananas](https://github.com/SurajBiswal/Leetcode/tree/master/0907-koko-eating-bananas) |
 ## Backtracking
 |  |
 | ------- |
@@ -71,4 +72,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/SurajBiswal/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0300-longest-increasing-subsequence](https://github.com/SurajBiswal/Leetcode/tree/master/0300-longest-increasing-subsequence) |
+| [0907-koko-eating-bananas](https://github.com/SurajBiswal/Leetcode/tree/master/0907-koko-eating-bananas) |
 <!---LeetCode Topics End-->
