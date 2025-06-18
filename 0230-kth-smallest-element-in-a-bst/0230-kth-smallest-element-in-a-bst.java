@@ -21,14 +21,15 @@ class Solution {
         return node;
     }
 
-    public void helper(TreeNode root, int k) {
-        if(root==null)return;
+    public boolean helper(TreeNode root, int k) {
+        if(root==null)return false;
         helper(root.left, k);
         ++count;
         if(k==count){
             node = root.val;
+            return true;
         } 
         helper(root.right, k);
-        return;
+        return false;
     }
 }
