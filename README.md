@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/SurajBiswal/Leetcode/tree/master/0022-generate-parentheses) |
 | [0131-palindrome-partitioning](https://github.com/SurajBiswal/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0300-longest-increasing-subsequence](https://github.com/SurajBiswal/Leetcode/tree/master/0300-longest-increasing-subsequence) |
+| [1013-fibonacci-number](https://github.com/SurajBiswal/Leetcode/tree/master/1013-fibonacci-number) |
 ## Database
 |  |
 | ------- |
@@ -81,4 +82,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/SurajBiswal/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0300-longest-increasing-subsequence](https://github.com/SurajBiswal/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0907-koko-eating-bananas](https://github.com/SurajBiswal/Leetcode/tree/master/0907-koko-eating-bananas) |
+## Math
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/SurajBiswal/Leetcode/tree/master/1013-fibonacci-number) |
+## Recursion
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/SurajBiswal/Leetcode/tree/master/1013-fibonacci-number) |
+## Memoization
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/SurajBiswal/Leetcode/tree/master/1013-fibonacci-number) |
 <!---LeetCode Topics End-->
