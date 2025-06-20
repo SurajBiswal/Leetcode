@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/SurajBiswal/Leetcode/tree/master/0078-subsets) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/SurajBiswal/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0300-longest-increasing-subsequence](https://github.com/SurajBiswal/Leetcode/tree/master/0300-longest-increasing-subsequence) |
+| [0322-coin-change](https://github.com/SurajBiswal/Leetcode/tree/master/0322-coin-change) |
 | [0907-koko-eating-bananas](https://github.com/SurajBiswal/Leetcode/tree/master/0907-koko-eating-bananas) |
 ## Backtracking
 |  |
@@ -33,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/SurajBiswal/Leetcode/tree/master/0022-generate-parentheses) |
 | [0131-palindrome-partitioning](https://github.com/SurajBiswal/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0300-longest-increasing-subsequence](https://github.com/SurajBiswal/Leetcode/tree/master/0300-longest-increasing-subsequence) |
+| [0322-coin-change](https://github.com/SurajBiswal/Leetcode/tree/master/0322-coin-change) |
 | [1013-fibonacci-number](https://github.com/SurajBiswal/Leetcode/tree/master/1013-fibonacci-number) |
 ## Database
 |  |
@@ -70,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0226-invert-binary-tree](https://github.com/SurajBiswal/Leetcode/tree/master/0226-invert-binary-tree) |
+| [0322-coin-change](https://github.com/SurajBiswal/Leetcode/tree/master/0322-coin-change) |
 ## Divide and Conquer
 |  |
 | ------- |
