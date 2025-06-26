@@ -10,19 +10,10 @@
 class Solution {
      TreeNode temp = new TreeNode();
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        // TreeNode temp = new TreeNode();
-        helper(root, p, q);
-        return temp;
-    }
-    public boolean helper(TreeNode root, TreeNode p, TreeNode q){
-        if(root==null) return false;
-        boolean currentNode = false;
-        if(root == p || root == q) currentNode = true;
-        boolean left = helper(root.left, p, q);
-        boolean right = helper(root.right, p, q);
-        if((currentNode == true && (left==true || right==true)) || (left==true && right==true)){
-            temp = root;
-        }
-        return currentNode || left || right;
+        if(root==null || root==p || root==q) return root;
+        TreeNode left = lowestCommonAncestor(root.left, p, q);
+        TreeNode right = lowestCommonAncestor(root.right, p, q);
+        if(left!=null && right!=null) return root;
+        return left==null ? right : left;
     }
 }
