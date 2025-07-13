@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/SurajBiswal/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0300-longest-increasing-subsequence](https://github.com/SurajBiswal/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/SurajBiswal/Leetcode/tree/master/0322-coin-change) |
+| [0343-integer-break](https://github.com/SurajBiswal/Leetcode/tree/master/0343-integer-break) |
 | [1013-fibonacci-number](https://github.com/SurajBiswal/Leetcode/tree/master/1013-fibonacci-number) |
 ## Database
 |  |
@@ -102,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0343-integer-break](https://github.com/SurajBiswal/Leetcode/tree/master/0343-integer-break) |
 | [1013-fibonacci-number](https://github.com/SurajBiswal/Leetcode/tree/master/1013-fibonacci-number) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/SurajBiswal/Leetcode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 ## Recursion
