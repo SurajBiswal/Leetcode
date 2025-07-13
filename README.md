@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/SurajBiswal/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/SurajBiswal/Leetcode/tree/master/0322-coin-change) |
 | [0907-koko-eating-bananas](https://github.com/SurajBiswal/Leetcode/tree/master/0907-koko-eating-bananas) |
+| [2497-maximum-matching-of-players-with-trainers](https://github.com/SurajBiswal/Leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
 ## Backtracking
 |  |
 | ------- |
@@ -112,4 +113,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1013-fibonacci-number](https://github.com/SurajBiswal/Leetcode/tree/master/1013-fibonacci-number) |
+## Two Pointers
+|  |
+| ------- |
+| [2497-maximum-matching-of-players-with-trainers](https://github.com/SurajBiswal/Leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
+## Greedy
+|  |
+| ------- |
+| [2497-maximum-matching-of-players-with-trainers](https://github.com/SurajBiswal/Leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
+## Sorting
+|  |
+| ------- |
+| [2497-maximum-matching-of-players-with-trainers](https://github.com/SurajBiswal/Leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
 <!---LeetCode Topics End-->
