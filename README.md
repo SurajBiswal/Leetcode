@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/SurajBiswal/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/SurajBiswal/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/SurajBiswal/Leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/SurajBiswal/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/SurajBiswal/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/SurajBiswal/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/SurajBiswal/Leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/SurajBiswal/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -87,11 +89,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/SurajBiswal/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/SurajBiswal/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/SurajBiswal/Leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/SurajBiswal/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0226-invert-binary-tree](https://github.com/SurajBiswal/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/SurajBiswal/Leetcode/tree/master/0322-coin-change) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/SurajBiswal/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -130,11 +134,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/SurajBiswal/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/SurajBiswal/Leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
 ## Hash Table
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/SurajBiswal/Leetcode/tree/master/0496-next-greater-element-i) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/SurajBiswal/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Monotonic Stack
 |  |
 | ------- |
