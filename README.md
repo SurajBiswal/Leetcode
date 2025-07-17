@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0031-next-permutation](https://github.com/SurajBiswal/Leetcode/tree/master/0031-next-permutation) |
 | [0046-permutations](https://github.com/SurajBiswal/Leetcode/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/SurajBiswal/Leetcode/tree/master/0078-subsets) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/SurajBiswal/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
@@ -130,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0031-next-permutation](https://github.com/SurajBiswal/Leetcode/tree/master/0031-next-permutation) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/SurajBiswal/Leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
 ## Greedy
 |  |
