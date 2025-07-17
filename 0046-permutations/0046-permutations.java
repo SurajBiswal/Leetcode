@@ -1,28 +1,28 @@
 class Solution {
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>>ans = new ArrayList<>();
-        helper(nums, 0, ans);
+        disInt(0,nums,ans);
         return ans;
     }
-    public void helper(int[]nums, int i, List<List<Integer>>ans){
-        if(i==nums.length){
-            List<Integer>list = new ArrayList<>();
-            for(int num:nums){
-                list.add(num);
-            }
-            ans.add(new ArrayList<>(list));
-            return;
+
+    public static void disInt(int ind , int[]nums, List<List<Integer>>ans){
+        if(ind == nums.length){
+             List<Integer>list = new ArrayList<>();
+             for(int i=0;i<nums.length;i++){
+                 list.add(nums[i]);
+             }
+             ans.add(list);
         }
-        for(int j=i;j< nums.length;j++){
-            swap(nums, i, j);
-            helper(nums, i+1, ans);
-            swap(nums, i, j);
+
+        for(int i=ind;i<nums.length;i++){
+            swap(i, ind, nums);
+            disInt(ind+1, nums, ans);
+            swap(i, ind, nums);
         }
     }
-    public void swap(int[]nums, int i, int j){
+    public static void swap(int i, int ind, int[]nums){
         int temp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = temp;
+        nums[i] = nums[ind];
+        nums[ind] = temp;
     }
-} 
- 
+}
