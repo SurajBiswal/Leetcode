@@ -27,15 +27,11 @@ class Solution {
             max[0]= level;
         }
         if(root.right != null){
-            level+=1;
-            helper (root.right, level, max, list);
-            level-=1;
+            helper (root.right, level+1, max, list);
         }
 
         if(root.left != null){
-            level+=1;
-            helper (root.left, level, max, list);
-            level-=1;
+            helper (root.left, level+1, max, list);
         }
         return;
     }
