@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0176-second-highest-salary](https://github.com/SurajBiswal/Leetcode/tree/master/0176-second-highest-salary) |
+| [0182-duplicate-emails](https://github.com/SurajBiswal/Leetcode/tree/master/0182-duplicate-emails) |
 | [1415-students-and-examinations](https://github.com/SurajBiswal/Leetcode/tree/master/1415-students-and-examinations) |
 | [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/SurajBiswal/Leetcode/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
 ## Stack
