@@ -1,70 +1,43 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
- class Pair{
-   TreeNode node;
-   int pos ;
-   public Pair(TreeNode node, int pos){
-     this.node = node;
-     this.pos = pos;
-   }
- }
+class Pair {
+    int col;
+    int row;
+    TreeNode node;
+    public Pair(TreeNode node, int col, int row) {
+        this.col = col;
+        this.row = row;
+        this.node = node;
+    }
+}
+
 class Solution {
     public List<List<Integer>> verticalTraversal(TreeNode root) {
-        List<List<Integer>> result = new ArrayList<>();
-        if (root == null) {
-            return result;
-        }
-
+        TreeMap<Integer, TreeMap<Integer, List<Integer>>> map = new TreeMap<>();
         Queue<Pair> queue = new LinkedList<>();
-        Map<Integer, List<Integer>> map = new TreeMap<>();
-        queue.add(new Pair(root, 0));
+        queue.offer(new Pair(root, 0, 0));
 
         while (!queue.isEmpty()) {
-            int size = queue.size();
-            Map<Integer, List<Integer>> tempMap = new HashMap<>();
+            Pair pair = queue.poll();
+            int col = pair.col;
+            int row = pair.row;
+            TreeNode node = pair.node;
 
-            for (int i = 0; i < size; i++) {
-                Pair p = queue.poll();
-                TreeNode node = p.node;
-                int x = p.pos;
+            map.putIfAbsent(col, new TreeMap<>());
+            map.get(col).putIfAbsent(row, new ArrayList<>());
+            map.get(col).get(row).add(node.val);
 
-                tempMap.putIfAbsent(x, new ArrayList<>());
-                tempMap.get(x).add(node.val);
-
-                if (node.left != null) {
-                    queue.offer(new Pair(node.left, x - 1));
-                }
-                if (node.right != null) {
-                    queue.offer(new Pair(node.right, x + 1));
-                }
-            }
-
-            for (Map.Entry<Integer, List<Integer>> entry : tempMap.entrySet()) {
-                int col = entry.getKey();
-                List<Integer> nodes = entry.getValue();
-                Collections.sort(nodes);
-                map.putIfAbsent(col, new ArrayList<>());
-                map.get(col).addAll(nodes);
-            }
+            if (node.left != null) queue.offer(new Pair(node.left, col - 1, row + 1));
+            if (node.right != null) queue.offer(new Pair(node.right, col + 1, row + 1));
         }
 
-        for (int col : map.keySet()) {
-            result.add(map.get(col));
+        List<List<Integer>> list = new ArrayList<>();
+        for (TreeMap<Integer, List<Integer>> rows : map.values()) {
+            List<Integer> colList = new ArrayList<>();
+            for (List<Integer> vals : rows.values()) {
+                Collections.sort(vals); // keep same (x,y) sorted
+                colList.addAll(vals);
+            }
+            list.add(colList);
         }
-
-        return result;
+        return list;
     }
 }
