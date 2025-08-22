@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0031-next-permutation](https://github.com/SurajBiswal/Leetcode/tree/master/0031-next-permutation) |
 | [0046-permutations](https://github.com/SurajBiswal/Leetcode/tree/master/0046-permutations) |
+| [0073-set-matrix-zeroes](https://github.com/SurajBiswal/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0078-subsets](https://github.com/SurajBiswal/Leetcode/tree/master/0078-subsets) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/SurajBiswal/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/SurajBiswal/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -163,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0073-set-matrix-zeroes](https://github.com/SurajBiswal/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0496-next-greater-element-i](https://github.com/SurajBiswal/Leetcode/tree/master/0496-next-greater-element-i) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/SurajBiswal/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Monotonic Stack
@@ -170,4 +172,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0496-next-greater-element-i](https://github.com/SurajBiswal/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/SurajBiswal/Leetcode/tree/master/0503-next-greater-element-ii) |
+## Matrix
+|  |
+| ------- |
+| [0073-set-matrix-zeroes](https://github.com/SurajBiswal/Leetcode/tree/master/0073-set-matrix-zeroes) |
 <!---LeetCode Topics End-->
