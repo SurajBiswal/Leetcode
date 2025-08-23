@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0182-duplicate-emails](https://github.com/SurajBiswal/Leetcode/tree/master/0182-duplicate-emails) |
 | [0570-managers-with-at-least-5-direct-reports](https://github.com/SurajBiswal/Leetcode/tree/master/0570-managers-with-at-least-5-direct-reports) |
 | [0620-not-boring-movies](https://github.com/SurajBiswal/Leetcode/tree/master/0620-not-boring-movies) |
+| [1390-average-selling-price](https://github.com/SurajBiswal/Leetcode/tree/master/1390-average-selling-price) |
 | [1415-students-and-examinations](https://github.com/SurajBiswal/Leetcode/tree/master/1415-students-and-examinations) |
 | [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/SurajBiswal/Leetcode/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
 | [2087-confirmation-rate](https://github.com/SurajBiswal/Leetcode/tree/master/2087-confirmation-rate) |
