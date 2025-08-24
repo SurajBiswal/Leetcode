@@ -1,17 +1,24 @@
 class Solution {
     public List<List<Integer>> generate(int numRows) {
-        List<List<Integer>>ans=new ArrayList<>();
-        for(int i=0;i<numRows;i++){
-            List<Integer>list = new ArrayList<>();
-            for(int j=0;j<=i;j++){
-                if(j==0) list.add(1);
-                else if(j==i) list.add(1);
-                else{
-                    list.add(ans.get(i-1).get(j-1)+ans.get(i-1).get(j));
+        List<List<Integer>>ans = new ArrayList<>();
+        ans.add(new ArrayList<>(List.of(1)));
+
+        while(numRows > 1){
+            List<Integer>list = ans.get(ans.size()-1);
+            List<Integer>current = new ArrayList<>();
+            current.add(1);
+            if(list.size()>1){
+                for(int i=0;i<list.size()-1;i++){
+                    current.add(list.get(i)+list.get(i+1));
                 }
             }
-            ans.add(list);
+            current.add(1);
+
+            ans.add(current);
+
+            --numRows;
         }
+
         return ans;
     }
 }
