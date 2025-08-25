@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/SurajBiswal/Leetcode/tree/master/0046-permutations) |
 | [0053-maximum-subarray](https://github.com/SurajBiswal/Leetcode/tree/master/0053-maximum-subarray) |
 | [0073-set-matrix-zeroes](https://github.com/SurajBiswal/Leetcode/tree/master/0073-set-matrix-zeroes) |
+| [0075-sort-colors](https://github.com/SurajBiswal/Leetcode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/SurajBiswal/Leetcode/tree/master/0078-subsets) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/SurajBiswal/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/SurajBiswal/Leetcode/tree/master/0118-pascals-triangle) |
@@ -160,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0031-next-permutation](https://github.com/SurajBiswal/Leetcode/tree/master/0031-next-permutation) |
+| [0075-sort-colors](https://github.com/SurajBiswal/Leetcode/tree/master/0075-sort-colors) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/SurajBiswal/Leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
 ## Greedy
 |  |
@@ -168,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/SurajBiswal/Leetcode/tree/master/0075-sort-colors) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/SurajBiswal/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/SurajBiswal/Leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
 ## Hash Table
