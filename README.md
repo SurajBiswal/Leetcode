@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/SurajBiswal/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/SurajBiswal/Leetcode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/SurajBiswal/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0287-find-the-duplicate-number](https://github.com/SurajBiswal/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/SurajBiswal/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/SurajBiswal/Leetcode/tree/master/0322-coin-change) |
 | [0496-next-greater-element-i](https://github.com/SurajBiswal/Leetcode/tree/master/0496-next-greater-element-i) |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/SurajBiswal/Leetcode/tree/master/0078-subsets) |
+| [0287-find-the-duplicate-number](https://github.com/SurajBiswal/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/SurajBiswal/Leetcode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 ## String
 |  |
@@ -141,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0098-validate-binary-search-tree](https://github.com/SurajBiswal/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/SurajBiswal/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/SurajBiswal/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [0287-find-the-duplicate-number](https://github.com/SurajBiswal/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/SurajBiswal/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0907-koko-eating-bananas](https://github.com/SurajBiswal/Leetcode/tree/master/0907-koko-eating-bananas) |
 ## Math
@@ -165,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/SurajBiswal/Leetcode/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/SurajBiswal/Leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/SurajBiswal/Leetcode/tree/master/0088-merge-sorted-array) |
+| [0287-find-the-duplicate-number](https://github.com/SurajBiswal/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/SurajBiswal/Leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
 ## Greedy
 |  |
