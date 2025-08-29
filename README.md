@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0031-next-permutation](https://github.com/SurajBiswal/Leetcode/tree/master/0031-next-permutation) |
+| [0042-trapping-rain-water](https://github.com/SurajBiswal/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/SurajBiswal/Leetcode/tree/master/0046-permutations) |
 | [0053-maximum-subarray](https://github.com/SurajBiswal/Leetcode/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/SurajBiswal/Leetcode/tree/master/0056-merge-intervals) |
@@ -49,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/SurajBiswal/Leetcode/tree/master/0022-generate-parentheses) |
+| [0042-trapping-rain-water](https://github.com/SurajBiswal/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/SurajBiswal/Leetcode/tree/master/0053-maximum-subarray) |
 | [0072-edit-distance](https://github.com/SurajBiswal/Leetcode/tree/master/0072-edit-distance) |
 | [0118-pascals-triangle](https://github.com/SurajBiswal/Leetcode/tree/master/0118-pascals-triangle) |
@@ -73,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/SurajBiswal/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0144-binary-tree-preorder-traversal](https://github.com/SurajBiswal/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0496-next-greater-element-i](https://github.com/SurajBiswal/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/SurajBiswal/Leetcode/tree/master/0503-next-greater-element-ii) |
@@ -166,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0031-next-permutation](https://github.com/SurajBiswal/Leetcode/tree/master/0031-next-permutation) |
+| [0042-trapping-rain-water](https://github.com/SurajBiswal/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/SurajBiswal/Leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/SurajBiswal/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0287-find-the-duplicate-number](https://github.com/SurajBiswal/Leetcode/tree/master/0287-find-the-duplicate-number) |
@@ -191,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/SurajBiswal/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/SurajBiswal/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/SurajBiswal/Leetcode/tree/master/0503-next-greater-element-ii) |
 ## Matrix
