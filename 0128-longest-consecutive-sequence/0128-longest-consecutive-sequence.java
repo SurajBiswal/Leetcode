@@ -10,16 +10,12 @@ class Solution {
             int num = nums[i];
             int cnt=1;
             int j=1;
-            while(set.contains(num-j)){
-                cnt++;
-                set.remove(num-j);
-                j++;
-            }
-            j=1;
-            while(set.contains(num+j)){
-                cnt++;
-                set.remove(num+j);
-                j++;
+            if(!set.contains(num-j)){
+                while(set.contains(num+j)){
+                    cnt++;
+                    set.remove(num+j);
+                    j++;
+                }
             }
             maxCnt = Math.max(maxCnt, cnt);
         }
