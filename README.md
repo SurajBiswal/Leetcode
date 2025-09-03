@@ -168,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0024-swap-nodes-in-pairs](https://github.com/SurajBiswal/Leetcode/tree/master/0024-swap-nodes-in-pairs) |
 | [1013-fibonacci-number](https://github.com/SurajBiswal/Leetcode/tree/master/1013-fibonacci-number) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/SurajBiswal/Leetcode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 ## Memoization
@@ -225,4 +226,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/SurajBiswal/Leetcode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/SurajBiswal/Leetcode/tree/master/0229-majority-element-ii) |
+## Linked List
+|  |
+| ------- |
+| [0024-swap-nodes-in-pairs](https://github.com/SurajBiswal/Leetcode/tree/master/0024-swap-nodes-in-pairs) |
 <!---LeetCode Topics End-->
