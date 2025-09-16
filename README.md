@@ -183,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/SurajBiswal/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/SurajBiswal/Leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/SurajBiswal/Leetcode/tree/master/0088-merge-sorted-array) |
+| [0141-linked-list-cycle](https://github.com/SurajBiswal/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0287-find-the-duplicate-number](https://github.com/SurajBiswal/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/SurajBiswal/Leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
 ## Greedy
@@ -205,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/SurajBiswal/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0073-set-matrix-zeroes](https://github.com/SurajBiswal/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/SurajBiswal/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0141-linked-list-cycle](https://github.com/SurajBiswal/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0169-majority-element](https://github.com/SurajBiswal/Leetcode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/SurajBiswal/Leetcode/tree/master/0229-majority-element-ii) |
 | [0496-next-greater-element-i](https://github.com/SurajBiswal/Leetcode/tree/master/0496-next-greater-element-i) |
@@ -232,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0024-swap-nodes-in-pairs](https://github.com/SurajBiswal/Leetcode/tree/master/0024-swap-nodes-in-pairs) |
+| [0141-linked-list-cycle](https://github.com/SurajBiswal/Leetcode/tree/master/0141-linked-list-cycle) |
 ## Sliding Window
 |  |
 | ------- |
