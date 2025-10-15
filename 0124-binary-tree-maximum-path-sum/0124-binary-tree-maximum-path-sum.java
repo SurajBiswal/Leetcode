@@ -15,15 +15,15 @@
  */
 class Solution {
     public int maxPathSum(TreeNode root) {
-        int [] ans = {root.val};
-        helper(root, ans);
-        return ans[0];
+        int[]max = {root.val};
+        helper(root, max);
+        return max[0];
     }
-    public int helper(TreeNode root, int[]ans){
+    public int helper(TreeNode root, int[] max){
         if(root==null) return 0;
-        int left = Math.max(0, helper(root.left, ans));
-        int right = Math.max(0, helper(root.right, ans));
-        ans[0] = Math.max(ans[0], left + right + root.val);
-        return Math.max(left, right)+root.val;
+        int left = Math.max(0, helper(root.left, max));
+        int right = Math.max(0, helper(root.right, max));
+        max[0] = Math.max(max[0], left+ right +root.val);
+        return Math.max(left+root.val, right+root.val);
     }
 }
