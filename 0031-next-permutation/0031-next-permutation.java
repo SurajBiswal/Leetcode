@@ -1,42 +1,35 @@
 class Solution {
     public void nextPermutation(int[] nums) {
-        int n = nums.length;
-        int pivotIndex = -1;
-
-        // Step 1: Find the rightmost index where nums[i] < nums[i + 1]
-        for (int i = n - 2; i >= 0; i--) {
-            if (nums[i] < nums[i + 1]) {
-                pivotIndex = i;
-                break;
-            }
-        }
-
-        if (pivotIndex == -1) {
-            reverse(nums, 0, n - 1); // Entire array is non-increasing, reverse it
+        int pivotInd = findPivot(nums);
+        if(pivotInd < 0){
+            Arrays.sort(nums);
             return;
         }
+        findNextGreterAndSwap(nums, pivotInd);
+        Arrays.sort(nums, pivotInd+1, nums.length);
+    }
+    public int findPivot(int[] nums){
+        int i=nums.length-2;
+        while(i>=0){
+            if(nums[i]<nums[i+1]) return i;
+            i--;
+        }
+        return i;
+    }
 
-        // Step 2: Find the rightmost element greater than nums[pivotIndex]
-        for (int i = n - 1; i > pivotIndex; i--) {
-            if (nums[i] > nums[pivotIndex]) {
-                swap(nums, i, pivotIndex);
+    public void findNextGreterAndSwap(int[] nums, int pivot){
+        int n = nums.length;
+        for(int i=n-1; i>pivot; i--){
+            if(nums[pivot]<nums[i]){
+                swap(nums, pivot, i);
                 break;
             }
         }
-
-        // Step 3: Reverse the suffix starting at pivotIndex + 1
-        reverse(nums, pivotIndex + 1, n - 1);
     }
 
-    private void reverse(int[] nums, int left, int right) {
-        while (left < right) {
-            swap(nums, left++, right--);
-        }
-    }
-
-    private void swap(int[] nums, int i, int j) {
-        int temp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = temp;
+    public void swap(int[]nums, int pivot, int i){
+        int temp = nums[pivot];
+        nums[pivot] = nums[i];
+        nums[i] = temp;
     }
 }
