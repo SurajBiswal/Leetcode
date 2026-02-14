@@ -6,7 +6,7 @@ class Solution {
             return;
         }
         findNextGreterAndSwap(nums, pivotInd);
-        Arrays.sort(nums, pivotInd+1, nums.length);
+        reverse(nums, pivotInd+1, nums.length-1);
     }
     public int findPivot(int[] nums){
         int i=nums.length-2;
@@ -27,9 +27,17 @@ class Solution {
         }
     }
 
-    public void swap(int[]nums, int pivot, int i){
-        int temp = nums[pivot];
-        nums[pivot] = nums[i];
-        nums[i] = temp;
+    public void swap(int[]nums, int i, int j){
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    }
+
+    public void reverse(int[] nums, int i, int j){
+        while(i<=j){
+            swap(nums, i, j);
+            i++;
+            j--;
+        }
     }
 }
