@@ -2,7 +2,7 @@ class Solution {
     public void nextPermutation(int[] nums) {
         int pivotInd = findPivot(nums);
         if(pivotInd < 0){
-            Arrays.sort(nums);
+            reverse(nums, 0, nums.length-1);
             return;
         }
         findNextGreterAndSwap(nums, pivotInd);
