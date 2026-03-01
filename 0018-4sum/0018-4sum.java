@@ -1,21 +1,27 @@
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         int n = nums.length;
-        List<List<Integer>>ans=new ArrayList<>();
         Arrays.sort(nums);
+        List<List<Integer>>ans=new ArrayList<>();
         for(int i=0;i<n-3;i++){
+            if(i>0 && nums[i]==nums[i-1]) continue;
             for(int j=i+1;j<n-2;j++){
-                long sum = (long)nums[i]+ (long)nums[j];
-                int s=j+1;
+                if(j>i+1 && nums[j]==nums[j-1]) continue;
+                int s= j+1;
                 int e=n-1;
                 while(s<e){
-                    long tempSum = sum+ (long)nums[s]+ (long)nums[e];
-                    if(tempSum == target){
-                        if(!ans.contains(Arrays.asList(nums[i],nums[j],nums[s],nums[e]))){
-                            ans.add(Arrays.asList(nums[i],nums[j],nums[s],nums[e]));
-                        }
+                    long sum = (long)nums[i]+nums[j]+nums[s]+nums[e];
+                    if(sum==target){
+                        ans.add(Arrays.asList(nums[i],nums[j],nums[s],nums[e]));
                         s++;
-                    }else if(tempSum > target){
+                        e--;
+                        while(s<e && nums[s]==nums[s-1]){
+                            s++;
+                        }
+                        while(s<e && nums[e]==nums[e+1]){
+                            e--;
+                        }
+                    }else if(sum>target){
                         e--;
                     }else{
                         s++;
@@ -26,4 +32,3 @@ class Solution {
         return ans;
     }
 }
-
